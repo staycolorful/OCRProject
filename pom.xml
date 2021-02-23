@@ -32,6 +32,12 @@
             <artifactId>jempbox</artifactId>
             <version>1.8.16</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.stuxuhai/jpinyin -->
+        <dependency>
+            <groupId>com.github.stuxuhai</groupId>
+            <artifactId>jpinyin</artifactId>
+            <version>1.1.8</version>
+        </dependency>
     </dependencies>
 
 </project>

@@ -1,3 +1,4 @@
+import frame.OCRFrame;
 import utils.PDFUtil;
 
 public class Main {
@@ -6,6 +7,6 @@ public class Main {
         String outName = "【咖啡教室】咖啡简史.txt";
         PDFUtil pdfUtil = new PDFUtil();
         pdfUtil.readPDF(fileName,outName);*/
-        System.out.println("hello world");
+        OCRFrame ocrFrame = new OCRFrame();
     }
 }

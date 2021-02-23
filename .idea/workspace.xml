@@ -3,8 +3,34 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="022973ee-fe18-4e82-a6b0-76148481a81e" name="Default Changelist" comment="" />
+    <list default="true" id="022973ee-fe18-4e82-a6b0-76148481a81e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OCRProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frame/OCRFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frame/OCRFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/frame/OCRFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frame/OCRFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PDFUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PDFUtil.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +55,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,7 +77,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="022973ee-fe18-4e82-a6b0-76148481a81e" name="Default Changelist" comment="" />
@@ -56,8 +88,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613899500776</updated>
+      <workItem from="1614067323377" duration="710000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -69,6 +105,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1750" height="284" key="GridCell.Tab.0.bottom" timestamp="1614067477121">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1750" height="284" key="GridCell.Tab.0.bottom/0.23.1792.1039@0.23.1792.1039" timestamp="1614067477121" />
+    <state width="1750" height="284" key="GridCell.Tab.0.center" timestamp="1614067477121">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1750" height="284" key="GridCell.Tab.0.center/0.23.1792.1039@0.23.1792.1039" timestamp="1614067477121" />
+    <state width="1750" height="284" key="GridCell.Tab.0.left" timestamp="1614067477120">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1750" height="284" key="GridCell.Tab.0.left/0.23.1792.1039@0.23.1792.1039" timestamp="1614067477120" />
+    <state width="1750" height="284" key="GridCell.Tab.0.right" timestamp="1614067477121">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="1750" height="284" key="GridCell.Tab.0.right/0.23.1792.1039@0.23.1792.1039" timestamp="1614067477121" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
