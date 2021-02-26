@@ -23,9 +23,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="022973ee-fe18-4e82-a6b0-76148481a81e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AnalysWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WordToExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gofirst/begin/begin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gofirst/gofirst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/helloworld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProcesser/myProcesser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parse-wsdl/parse-wsdl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprider-test/sprider-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/out/production/test01/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test01/test01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timeManager/timemanager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Artical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Artical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Keywords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Keywords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Section.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frame/OCRFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frame/OCRFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frame/OCRFrameThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frame/OCRFrameThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PDFUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PDFUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/frame/OCRFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frame/OCRFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/FileUploadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PDFUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PDFUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Pageable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Pageable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +82,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1omlA6jgF7lLtQKjbxmhsDnH1OQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,10 +101,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/utils" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -116,18 +161,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/PDFUtil.java</url>
-          <line>220</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utils/PDFUtil.java</url>
-          <line>208</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utils/PDFUtil.java</url>
-          <line>218</line>
-          <option name="timeStamp" value="4" />
+          <line>64</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

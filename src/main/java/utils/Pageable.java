@@ -20,4 +20,8 @@ public class Pageable {
     public Boolean isPaged() {
         return isPaged;
     }
+
+    public void setIsPaged(Boolean isPaged) {
+        this.isPaged = isPaged;
+    }
 }

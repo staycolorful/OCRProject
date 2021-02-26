@@ -2,17 +2,14 @@ package utils;
 
 import com.github.stuxuhai.jpinyin.ChineseHelper;
 import org.apache.pdfbox.cos.COSName;
-import org.apache.pdfbox.io.RandomAccessRead;
 import org.apache.pdfbox.io.RandomAccessFile;
 import org.apache.pdfbox.pdfparser.PDFParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDResources;
-import org.apache.pdfbox.pdmodel.PageMode;
-import org.apache.pdfbox.pdmodel.graphics.PDXObject;
 import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
 import org.apache.pdfbox.text.PDFTextStripper;
-import sun.plugin.dom.core.Document;
+import org.apache.pdfbox.util.Matrix;
 
 
 import javax.imageio.ImageIO;
@@ -30,7 +27,7 @@ public class PDFUtil {
      * 读PDF文件，使用了pdfbox开源项目
      * @param fileName
      */
-    public static  PDDocument getPdfDocument(String fileName, String outName) {
+    public static  PDDocument getPdfDocument(String fileName) {
         File file = new File(fileName);
         FileInputStream in = null;
         try {
@@ -62,16 +59,18 @@ public class PDFUtil {
         try {
             // 新建一个PDF文本剥离器
             PDFTextStripper stripper = new PDFTextStripper();
+            stripper.setStartPage(0);
+            Matrix matrix =stripper.getTextMatrix();
+
             if (pageable.isPaged()) {
                 Integer pageNum = pageable.getPageNum();
                 //获取PDF页面
                 stripper.setStartPage(pageNum + 1);
                 stripper.setEndPage(pageNum + 1);
             }
-
             stripper.setSortByPosition(true);
             String text = stripper.getText(pdfdocument);
-            getImageByPdfPages(pdfdocument, pageable, ".");
+            //getImageByPdfPages(pdfdocument, pageable, ".");
             return convertToSimplifiedChinese(text);
 
         } catch (Exception e) {
