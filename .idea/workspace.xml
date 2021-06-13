@@ -23,40 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="022973ee-fe18-4e82-a6b0-76148481a81e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AnalysWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WordToExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../algorithm/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gofirst/begin/begin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gofirst/gofirst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helloworld/helloworld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myProcesser/myProcesser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parse-wsdl/parse-wsdl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sprider-test/sprider-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test01/out/production/test01/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test01/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test01/test01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../timeManager/timemanager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/ContentConditionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/QueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/StoreConfigDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/UrlConditionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/UrlDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spider/DefaultSpiderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spider/SpiderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spider/SpiderTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCRProject.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MybatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Artical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Artical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Keywords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Keywords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frame/OCRFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frame/OCRFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frame/OCRFrameThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frame/OCRFrameThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PDFUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PDFUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pageable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/frame/OCRFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frame/OCRFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/FileUploadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Artical.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Keywords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Section.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AnalysWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WordToExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WordToExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OCRProject-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Artical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Keywords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Section.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/PDFUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PDFUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Pageable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Pageable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,13 +77,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="disabledProfiles">
-      <list>
-        <option value="jdk-1.8" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1omlA6jgF7lLtQKjbxmhsDnH1OQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -101,18 +89,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spider" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/utils" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spider" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SpiderTest2.testSpider">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="OCRProject" />
@@ -120,8 +114,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiderTest2.testSpider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OCRProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spider" />
+      <option name="MAIN_CLASS_NAME" value="spider.SpiderTest2" />
+      <option name="METHOD_NAME" value="testSpider" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderTest.testSpider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OCRProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.test.java.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.test.java.spider" />
+      <option name="MAIN_CLASS_NAME" value="src.test.java.spider.SpiderTest" />
+      <option name="METHOD_NAME" value="testSpider" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderTest2.testSpider" />
+        <item itemvalue="JUnit.SpiderTest.testSpider" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -164,8 +192,28 @@
           <line>64</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/spider/SpiderTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/spider/SpiderTest2.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/spider/SpiderTest2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="parentId" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -23,23 +23,5 @@ public class WordToExcel {
 		}
 		return null;
 	}
-	public static void main(String[] args) throws Exception {
-		WordToExcel wth = new WordToExcel();
-		String wordPath = wth.getSourceFile();
-		if(wordPath==null){
-			System.out.println("��û��ѡ���ļ�����������");
-		}else if(".doc".equals(wordPath.trim().substring(wordPath.length()-4, wordPath.length()))){
-			AnalysWord ol = new AnalysWord();
-			Vector vec = ol.getDocumet(wordPath);
-			if(vec!=null){
-				ExcelUtil excell = new ExcelUtil();
-				excell.writeExcelByJXL(vec,ol);
-			}else{
-				System.out.println("���ܴ���������û��Ŀ¼�ĵ�word�ĵ���������������");
-			}
-		}else{
-			System.out.println("���ܴ����doc��ʽ��word�ĵ���������������������docxҲ����");
-		}
-		
-	}
+
 }
